@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  
+	<listeners>
+		<listener
+			class-name="utilities.ExtentReportManager" />
+	</listeners>
+  <test name="Test">
+  <parameter name="browser" value="chrome"/> 
+    <classes>
+    <class name="testCases.TC_003_LoginDDT"/>
+      <class name="testCases.TC_001_AccountRegistration"/>
+      <class name="testCases.TC_002_Login"/>
+      <!--
+        <class name="testCases.TC_001_AccountRegistration"/>
+        <class name="testCases.TC_001_AccountRegistration"/>
+        <class name="testCases.TC_001_AccountRegistration"/>
+        
+        if you have mutilpel test cases you can add it like htis. it iscalled serial testiong
+        the other one is called parallel testing
+       datadriver class should be executed separatly so i commented other classes
+       
+       when a test cases failed a new xml will be created in testout out called testng-failed.xml you can open run test again
+      
+      -->
+    </classes>
+  </test> <!-- i chose test base classes because it is the one running the test-->
+</suite> <!-- and it has inherited from testbase== also this will run all test case in vchrome browser -->
