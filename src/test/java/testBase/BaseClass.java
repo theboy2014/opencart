@@ -25,7 +25,7 @@ public class BaseClass {
 
 public WebDriver driver;
 public Logger logger;
-public ResourceBundle rb; //to read config.properties
+public ResourceBundle rb; //class to help read  config.properties
 	
     //test @BeforeClass(groups= {"master","sanity","regression"}) 
     @BeforeClass
