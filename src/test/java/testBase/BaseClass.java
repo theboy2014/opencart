@@ -27,7 +27,7 @@ public WebDriver driver;
 public Logger logger;
 public ResourceBundle rb; //to read config.properties
 	
-    //@BeforeClass(groups= {"master","sanity","regression"}) 
+    //test @BeforeClass(groups= {"master","sanity","regression"}) 
     @BeforeClass
 	@Parameters({"browser"})
 	public void setup(String br)
