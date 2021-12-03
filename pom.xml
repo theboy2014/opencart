@@ -23,7 +23,7 @@
           <version>3.0.0-M5</version>
           <configuration>
             <suiteXmlFiles> <!-- This is where we put xml file that needs to be run you can specify multiple xml-->
-                 <suiteXmlFile>crossbrowserTesting.xml</suiteXmlFile>
+                 <suiteXmlFile>mastersuite.xml</suiteXmlFile>
             </suiteXmlFiles><!-- from now on you only needs to execute pom xml and will run the test cases from master.xml-->
           </configuration>
         </plugin>
