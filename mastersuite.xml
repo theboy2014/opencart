@@ -10,10 +10,12 @@
   <test name="Test">
   <parameter name="browser" value="chrome"/> 
     <classes>
-    <class name="testCases.TC_003_LoginDDT"/>
+    
       <class name="testCases.TC_001_AccountRegistration"/>
-      <class name="testCases.TC_002_Login"/>
+      
       <!--
+        <class name="testCases.TC_003_LoginDDT"/>
+        <class name="testCases.TC_002_Login"/>
         <class name="testCases.TC_001_AccountRegistration"/>
         <class name="testCases.TC_001_AccountRegistration"/>
         <class name="testCases.TC_001_AccountRegistration"/>
