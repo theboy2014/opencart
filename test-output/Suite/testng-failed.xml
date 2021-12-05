@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_001_AccountRegistration">
+      <class name="testCases.TC_006_CompareProduct">
         <methods>
           <include name="tearDown"/>
-          <include name="test_account_Registration"/>
+          <include name="test_Product_compare"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC_001_AccountRegistration -->
+      </class> <!-- testCases.TC_006_CompareProduct -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
